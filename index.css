@@ -1,0 +1,39 @@
+
+div#memory_board{
+	transform-style: preserve-3d;
+	
+	min-height: 100%;
+  height: 100%;
+	padding:24px;
+	margin:0px auto;
+}
+div#memory_board > div{
+	background: url(logo.png) no-repeat;
+	border:#000 1px solid;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+}
+html, body {
+    height: 100%;
+    background:#CCC;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button2 {background-color: #008CBA;} /* Blue */
